@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.item {
+    width: 1000px;
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.dltbtn {
+    background-color: #f7ab87;
+    border-radius: 15px;
+    padding: 0px 10px;
+    max-height: 24px;
+}
+
+.todoitem {
+    width: 400px;
+}
+
+input {
+    border: 1px solid grey;
+    margin-right: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.add {
+    
+    background-color: #ffee9b;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+body {
+    padding-bottom: 60px; /* Adjust this value to be equal to or greater than the height of your fixed footer */
+}
